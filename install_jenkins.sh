@@ -1,6 +1,5 @@
 vagrant destroy -f
 vagrant up 
-ssh-keygen -f "/Users/yossi/.ssh/known_hosts" -R "192.168.56.20"
 
 sudo apt update
 sudo apt install -y openjdk-8-jdk
